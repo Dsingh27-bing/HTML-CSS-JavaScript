@@ -1,0 +1,27 @@
+table{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+th{
+    border: 1px solid black; 
+}
+#Antra{
+    font-size: xxx-large;
+}
+.gg{
+    vertical-align: top;
+}
+#life{
+    height: 20px;
+    width: fit-content;
+    margin: 5px;
+}
+#life td{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+table{
+    border: 1px solid black;
+    
+}
+td{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    
+}
+th{
+    border: 1px solid black; 
+    height: 100px;
+}
+#Antra button{
+    background: rgb(235, 216, 219) !important;
+    border-radius: 20px;
+    width: 390px;
+    color: rgb(87, 87, 183);
+    font-size: 20px;
+    border-color: transparent;
+}
+button{
+    color: blue;
+    margin: 5px;
+    height: 90px;
+    width: 90px;
+    font-size: large;
+    border-radius:5px;
+    background: linear-gradient(to top,rgb(213, 208, 208) 50%, rgb(238, 234, 234) 50%);
+}
+#game button{
+    width: 190px;
+}
+.gg{
+    color: blue;
+    width: 190px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: large;
+    background: linear-gradient(to top,rgb(213, 208, 208) 50%, rgb(238, 234, 234) 50%);
+}
+#beer button{
+    width: 290px;
+}
+#life{
+    border: 0px;
+}
+#life td{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border: 0px;
+}
+#life td button{
+    height: 43px;
+    width: 90px;
+    color: rgb(158, 158, 239);
+}

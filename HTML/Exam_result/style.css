@@ -1,0 +1,14 @@
+table{
+    border: black 1px solid;
+    align-items: center;
+}
+th{
+    border: black 1px solid;
+}
+td{
+    border: black 1px solid;
+}
+tfoot{
+    font-size: small;
+    
+}
