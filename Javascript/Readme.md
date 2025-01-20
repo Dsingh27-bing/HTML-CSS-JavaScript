@@ -3,4 +3,4 @@ node (name of javaScript file)
 
 Example:
 
-node Salary.js
+<b>node Salary.js</b>
