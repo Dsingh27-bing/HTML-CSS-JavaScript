@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1d3557; 
+    color: white; 
+}
+
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.notifications {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+.notifications img {
+    height: 20px;
+    width: 20px;
+}
+
+.user-dropdown {
+    position: relative;
+}
+
+.user-dropdown a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+    width: 150px;
+}
+
+.search-bar button {
+    border: none;
+    background-color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-bar button:hover {
+    background-color: #ddd;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    font-size: 16px;
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu-item .dropdown-content a {
+    color: #1d3557;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-item .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.menu-item:hover .dropdown-content {
+    display: block;
+}
+
+
+.user-dropdown .dropdown-content {
+    right: 0;
+    left: auto;
+}
+

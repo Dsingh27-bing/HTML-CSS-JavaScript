@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar with Dropdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <!-- Top Section -->
+        <div class="top-section">
+            <div class="logo">
+                <img src="../logo.jpeg" alt="Antra Logo">
+            </div>
+            <div class="right-section">
+                <div class="notifications">
+                    <span>0</span>
+                    <img src="./notification.png" alt="Bell Icon" height="20px" width="20px">
+                </div>
+                <div class="user-dropdown menu-item">
+                    <a href="#">USER &#x25BC;</a>
+                    <div class="dropdown-content">
+                        <a href="#">Profile</a>
+                        <a href="#">Settings</a>
+                        <a href="#">Logout</a>
+                    </div>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button>&#128269;</button>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Section -->
+        <nav class="nav-links">
+            <div class="menu-item">
+                <a href="#">NEWS</a>
+            </div>
+            <div class="menu-item dropdown">
+                <a href="#">ABOUT THE UNIVERSITY &#x25BC;</a>
+                <div class="dropdown-content">
+                    <a href="#">History</a>
+                    <a href="#">Departments</a>
+                    <a href="#">Administration</a>
+                </div>
+            </div>
+            <div class="menu-item dropdown">
+                <a href="#">TRAINING COURSES &#x25BC;</a>
+                <div class="dropdown-content">
+                    <a href="#">Course 1</a>
+                    <a href="#">Course 2</a>
+                    <a href="#">Course 3</a>
+                </div>
+            </div>
+            <div class="menu-item">
+                <a href="#">FOR COMPANIES</a>
+            </div>
+            <div class="menu-item">
+                <a href="#">FORUM</a>
+            </div>
+            <div class="menu-item">
+                <a href="#">CONTACTS</a>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
