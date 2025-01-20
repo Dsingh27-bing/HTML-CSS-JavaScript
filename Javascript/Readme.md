@@ -1,4 +1,4 @@
-To Execute the scripts please install node and enter bleow command in terminal:
+To Execute the scripts please install node and enter bleow command in terminal:<br>
 node (name of javaScript file)
 
 Example:
