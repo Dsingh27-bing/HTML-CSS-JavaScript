@@ -1,0 +1,6 @@
+To Execute the scripts please install node and enter bleow command in terminal:
+node (name of javaScript file)
+
+Example:
+
+node Salary.js
